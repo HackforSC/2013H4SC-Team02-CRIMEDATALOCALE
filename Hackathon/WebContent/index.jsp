@@ -48,34 +48,35 @@
 	          <h2 id=death>DEATH</h2>
 	        </div>
         </div>
-        <div id="googleMap"></div>
-        <fieldset>
-          <label for="txt_distance">View Crimes within</label>
-          <input id="txt_distance" type="text" value="5"/>
-          <input type="button" onClick="updateRadius()" value="submit"/>
-        </fieldset>
-      </div>
+        </div>
     </header>
     
-	   <div id="main-content">
-      <div class="container">
-         <div class="row">
-           <div class="span4">
-             <h2>About This Map</h2>
-             <p><span style="color:#0000FF">Assault</span><br><span style="color:#014421">Robbery</span><br><span style="color:#dd0000">Murder</span><br><span style="color:#ff208c">Theft</span><br><span style="color:#c0c0c0">Other</span></p>
-           </div>
+	<div id="main-content">
+    	<div class="container">
+        	<div class="row">
+            	<div id="googleMap"></div>
+            	<fieldset>
+              		<label for="txt_distance">View Crimes within</label>
+              		<input id="txt_distance" type="text" value="5" maxcharacters="2" /> miles.
+              		<input type="button" onClick="updateRadius()" value="Update Map"/>
+            	</fieldset>
+          </div>
+        <div class="row">
+        	<div class="span4">
+            	<h2>About This Map</h2>
+            	<p><span style="color:#0000FF">Assault</span><br><span style="color:#014421">Robbery</span><br><span style="color:#dd0000">Murder</span><br><span style="color:#ff208c">Theft</span><br><span style="color:#c0c0c0">Other</span></p>
+           	</div>
    
-           <div class="span4">
-             <h2>Civic Hackathon</h2>
-             <p>It was created as part of the national day of civic hacking.</p>
-           </div>
+           	<div class="span4">
+            	<h2>Civic Hackathon</h2>
+             	<p>It was created as part of the national day of civic hacking.</p>
+           	</div>
    
-           <div class="span4">
-             <h2>It's not perfect</h2>
-             <p>This map is an imperfect product of an imperfect world.  In a perfect world...we wouldn't need it at all.</p>
-           </div>
+        	<div class="span4">
+        		<h2>Who made this?</h2>
+            	<p>Thomas Hussey, Aaron Crosman, Robert Kozura.</p>
+        	</div>
         </div><!-- @end .row -->
-        
       </div><!-- @end .container -->
     </div><!-- @end #main-content -->
     
