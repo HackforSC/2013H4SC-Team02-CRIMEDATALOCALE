@@ -1,0 +1,98 @@
+/***********
+* Lines and Colors
+***********/
+
+body {
+  background: #EEE;
+}
+
+header#heading h1 {
+  background: #5386A4;
+  color: #FFF;
+  width: 100%;
+  padding: .25em;
+}
+
+h2 {
+  background: #5386A4;
+  color: #111;
+  text-align: center;
+}
+
+div#footer .container {
+  border-top: solid #ccc;
+}
+
+/***********
+ * Form Layout
+ ***********/
+
+form {
+  margin-top: 1em;
+  line-height: 2em;
+  text-align: center;
+}
+
+form label {
+  display: inline;
+}
+
+form input#txt_distance {
+  line-height: 1.5em;
+  width: 3em;
+  height: 1.5em;
+}
+
+/*************
+ *  Hack for change logo
+ ************/
+
+div#footer {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  img.hackforchangelogo {
+    width: 480px;
+  }
+}
+
+
+/***********
+ * Map placement and size controls.
+ ***********/
+div#googleMap {
+  width:600px;
+  height:380px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  div#googleMap {
+    width:760px;
+    height:380px;
+  }
+}
+
+@media (max-width: 767px) {
+  div#googleMap {
+    width:480px;
+    height:380px;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  div#googleMap {
+    width:1000px;
+    height:400px;
+  }
+}
+
+@media (max-width: 480px) {
+  div#googleMap {
+    width:300px;
+    height:200px;
+  }
+}
+
